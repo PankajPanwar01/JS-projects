@@ -1,0 +1,73 @@
+/* Reset basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #222;
+  padding: 15px 30px;
+  text-align: center;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Body with smooth background transition */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: background-color 1s ease;
+  padding: 20px;
+}
+
+/* Heading style with spacing below */
+h1 {
+  font-size: 3rem;
+  margin-bottom: 40px; /* space below heading */
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Button group container with spacing */
+.button-group {
+  display: flex;
+  gap: 20px; /* horizontal gap between buttons */
+  margin-bottom: 20px; /* space below button group */
+}
+
+/* Buttons */
+button {
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  background: #333;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+/* Optional: Add spacing for any additional paragraph or text */
+p {
+  font-size: 1rem;
+  color: #fff;
+  margin-top: 20px;
+}

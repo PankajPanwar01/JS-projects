@@ -1,0 +1,41 @@
+/* Body styling */
+body {
+  background-color: #121212;  /* गहरा black background */
+  color: #ffffff;            /* white text */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Main text styling */
+p {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* "JavaScript" word styling */
+.js {
+  color: #f7df1e;  /* JavaScript का yellow color */
+}
+
+/* Typing text */
+.typed-text {
+  color: #00e676; /* Bright green for typed text */
+}
+
+/* Cursor effect */
+.cursor {
+  display: inline-block;
+  width: 10px;
+  background-color: #00e676;
+  animation: blink 0.7s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}

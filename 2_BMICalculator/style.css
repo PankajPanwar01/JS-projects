@@ -1,0 +1,84 @@
+/* Container */
+.container {
+  width: 90%;
+  max-width: 575px;
+  height: auto;
+  background-color: #797978;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+/* Heading */
+h1 {
+  padding: 15px 0;
+  text-align: center;
+  font-size: 2rem;
+  color: #212121;
+}
+
+/* Input Fields */
+#height,
+#weight {
+  width: 100%;
+  max-width: 250px;
+  height: 40px;
+  margin: 20px auto;
+  display: block;
+  font-size: 1rem;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Weight Guide Text */
+#weight-guide {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 1rem;
+  color: #212121;
+}
+
+/* Result */
+#results {
+  font-size: 1.8rem;
+  margin: 20px auto;
+  text-align: center;
+  color: rgb(241, 241, 241);
+}
+
+/* Button */
+button {
+  width: 100%;
+  max-width: 250px;
+  height: 45px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 2px solid #212121;
+  color: #212121;
+  font-size: 1.2rem;
+  margin: 25px auto;
+  display: block;
+  cursor: pointer;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  #results {
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: 1rem;
+    height: 40px;
+  }
+}
